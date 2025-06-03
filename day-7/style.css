@@ -1,0 +1,23 @@
+
+body {
+  background: linear-gradient(270deg, #23015a, #5e0a42, #7b2ff7);
+  color: #0f0;
+  font-family: 'Courier New', monospace;
+  display: flex;
+  flex-direction: column;  /* Stack vertically */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #0f0;
+}
+
+#clock {
+  font-size: 5rem;
+  letter-spacing: 3px;
+}
