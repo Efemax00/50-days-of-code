@@ -1,0 +1,200 @@
+/* Smooth Scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #001f3f; /* Full page background color */
+  margin: 0;
+  padding: 0;
+  color: white; /* Makes all text white by default */
+}
+
+
+/* Header and Navigation */
+header {
+  color: greenyellow;
+  padding: 20px;
+  font: normal 16px 'Poppins', sans-serif;
+}
+
+/* Headings */
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Paragraphs */
+p {
+  font-size: 1rem;
+  font-weight: 300;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Labels */
+label {
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Input fields */
+input {
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Buttons */
+button {
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+}
+
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  margin: 0;
+  font-size: 2.1rem;
+  color: rgb(224, 218, 186);
+  font-weight: bolder;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+}
+
+.nav-links li a {
+  color: rgb(254, 251, 251);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links li a:hover {
+  text-decoration: underline;
+}
+
+.tagline {
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+/* Hero Section */
+.hero {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+/* Features Section */
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 20px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.feature {
+  max-width: 200px;
+  text-align: center;
+}
+
+/* Calculator Section */
+.calculator-section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input, button {
+  padding: 10px;
+  font-size: 1rem;
+}
+
+button {
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+}
+
+/* Results Box */
+#results {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer {
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .nav-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+  }
+
+  .features {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  form, #results {
+    width: 90%;
+  }
+}
