@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Inconsolata:wght@200..900&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+
+.logo-text {
+  font-family: "Bungee Outline", sans-serif;
+}
+
+.humanist-font span {
+  font-family: "Inconsolata", monospace;
+}
