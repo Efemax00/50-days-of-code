@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+
+.logo-text {
+  font-family: "Agbalumo", system-ui;
+}
+
+.border-dashed {
+  --bs-border-style: dashed;
+}
+
+.cup {
+  width: 82px;
+  height: 150px;
+  position: relative;
+  overflow: visible;
+  border-radius: 0 0 20% 20%;
+  border: solid rgba(52, 73, 94, 1);
+  border-width: 0px 3px 10px;
+  background-color: transparent;
+  box-shadow: 10px 10px 20px 1px rgba(0, 0, 0, 0.3);
+}
+
+.water {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 0%;
+  background-color: rgba(52, 152, 219, 0.8);
+  transition: height 1s ease;
+  border-radius: 0 0 14% 14%;
+}
+
+/* Handle */
+.cup::after {
+  content: "";
+  position: absolute;
+  right: -33px;
+  top: 30px;
+  width: 30px;
+  height: 60px;
+  border: 6px solid rgba(52, 73, 94, 1);
+  border-left: none;
+  border-radius: 0 50% 50% 0;
+  background-color: transparent;
+}
