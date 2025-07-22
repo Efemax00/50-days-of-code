@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Light Bulb Switch</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <div class="container py-4">
+        <h1 class="logo-text mb-3 text-center">Light Bulb Switch</h1>
+        <div class="card bg-body-tertiary rounded-4 mx-auto mb-3 border border-dashed"
+            style="max-width: 600px !important;">
+            <div class="card-body">
+                <div class="d-flex align-items-center">
+                    <img src="./bulb-off.png" alt="Bulb Image" class="mx-auto my-4" id="bulbImage" width="150">
+                </div>
+                <div class="d-flex align-items-center gap-3 justify-content-center mb-3">
+                    <button class="btn btn-lg btn-secondary rounded-4" id="turnOnButton">
+                        <i class="bi bi-lightbulb me-2"></i> Turn On
+                    </button>
+                    <button class="btn btn-lg btn-dark rounded-4 disabled" id="turnOffButton">
+                        <i class="bi bi-lightbulb-off me-2"></i> Turn Off
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <script src="./app.js"></script>
+
+</body>
+
+</html>
